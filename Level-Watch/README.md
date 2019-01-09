@@ -15,7 +15,9 @@ paste in this huge chunk of words.
 
 `{"s-key": "yourtokenhere"}`
  
-* Don't forget to save that bad boy.
+* Don't forget to save that bad boy. it should look someting like this
+
+![files](structure.png) ![tokenfile](tokenfile.png)
 
 * Now back to the command-prompt, type '*py -m Level-Watch.py*' and it should look
 almost pretty.
