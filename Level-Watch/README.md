@@ -19,3 +19,7 @@ paste in this huge chunk of words.
 
 * Now back to the command-prompt, type '*py -m Level-Watch.py*' and it should look
 almost pretty.
+
+* As long as they're leveling, something will be moving. *If it's not, They're not*
+
+![example of something working nice](example.png)
