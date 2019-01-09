@@ -1,9 +1,10 @@
 # Level-Watch.py
 
 **Assuming you have python installed already**
-* Clone into folder.
 
-* Open command-prompt in that folder.
+* Clone into one of them fancy folders you got hidden back there.
+
+* Open command-prompt in said folder.
 
 * Type '*py -m pip install requests*' hit enter and let requests install.
 
