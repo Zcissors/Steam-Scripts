@@ -16,18 +16,22 @@ def level(steamid):
         f'https://api.steampowered.com/IPlayerService/GetBadges/v1/',
         params={'key': steam_key, 'steamid': steamid}
     )
-    data = url.json()
-    data = data['response']
-    level = data.get('player_level')
-    xp = data.get('player_xp')
-    xpup = data.get('player_xp_needed_to_level_up')
+    try:
+        data = url.json()
+        data = data['response']
+        level = data.get('player_level')
+        xp = data.get('player_xp')
+        xpup = data.get('player_xp_needed_to_level_up')
 
-    if url.status_code == 500:
-        print('smthn broke sorry')
-    elif url.status_code == 200:
-        print(f'{steamid} |||| Level: {level:,} || Current XP: {xp:,} '
-              f'|| Badges left to next level: {xpup // 100}')
+        if url.status_code == 500:
+            print('smthn broke sorry')
+        elif url.status_code == 200:
+            print(f'{steamid} |||| Level: {level:,} || Current XP: {xp:,} '
+                  f'|| Badges left to next level: {xpup // 100}')
+    except:
+        print(f'{steamid} |||| private :(')
 
 print(time.ctime())
 while True:
     level(steamid)
+    #  time.sleep(5)
