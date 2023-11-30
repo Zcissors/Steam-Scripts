@@ -15,8 +15,7 @@ an API key after a long time fighting for one like the warrior you are.
 paste in this huge chunk of words.
 
 `{"s-key": "yourtokenhere"}`
- 
-* Don't forget to save that bad boy. it should look someting like this
+
 
 ![files](structure.png) ![tokenfile](tokenfile.png)
 
