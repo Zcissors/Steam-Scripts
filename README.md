@@ -1,2 +1,2 @@
 # Steam-Scripts
-A collection of scripts to make the little things less tedious
+A collection of scripts for fun and experimentation.
