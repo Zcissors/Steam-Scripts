@@ -6,13 +6,11 @@
 
 * Open command-prompt in said folder.
 
-* Type '*py -m pip install requests*' hit enter and let requests install.
+* '*py -m pip install requests*' 
 
-* Navigate your way to https://steamcommunity.com/dev/apikey and gather yourself 
-an API key after a long time fighting for one like the warrior you are.
+* Navigate your way to https://steamcommunity.com/dev/apikey 
 
-* Create a *token.json* file in the same folder as *Level-Watch.py*,
-paste in this huge chunk of words.
+* Create a *token.json* file in the same folder as *Level-Watch.py*, using your token in the below format.
 
 `{"s-key": "yourtokenhere"}`
 
